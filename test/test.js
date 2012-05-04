@@ -3,7 +3,7 @@
 if (typeof exports !== 'undefined')
     expect = require('expect.js'), _ = require('../undersc_rext');
 
-describe('_nderscoreX', function() {
+describe('undersc_rext', function() {
 
     it('should be extemporaneaously ambiguous', function() {
         expect(_).to.be.ok();
