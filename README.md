@@ -13,6 +13,7 @@ spoken or done without preparation: *an extemporaneous speech.*
 
 ***
 
+those are cobras, man
 
 ### _.memo(list, iterator, [memo], [context])
 

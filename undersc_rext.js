@@ -14,7 +14,8 @@
 // ***
 //
 
-// 
+// those are cobras, man
+//
 
 /*globals exports:true,module*/
 ;(function() {
