@@ -11,13 +11,13 @@
 
 <p>spoken or done without preparation: <em>an extemporaneous speech.</em></p>
 
-<hr />             </td>             <td class="code">               <div class="highlight"><pre><span class="cm">/*globals exports:true,module*/</span>
+<hr />             </td>             <td class="code">               <div class="highlight"><pre></pre></div>             </td>           </tr>                               <tr id="section-2">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-2">&#182;</a>               </div>                            </td>             <td class="code">               <div class="highlight"><pre><span class="cm">/*globals exports:true,module*/</span>
 <span class="p">;(</span><span class="kd">function</span><span class="p">()</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">undersc_re</span> <span class="o">=</span> <span class="k">this</span><span class="p">.</span><span class="nx">_</span><span class="p">;</span>
     <span class="k">if</span> <span class="p">(</span><span class="k">typeof</span> <span class="nx">exports</span> <span class="o">!==</span> <span class="s1">&#39;undefined&#39;</span><span class="p">)</span> 
         <span class="nx">undersc_re</span> <span class="o">=</span> <span class="nx">exports</span> <span class="o">=</span> <span class="nx">module</span><span class="p">.</span><span class="nx">exports</span> <span class="o">=</span> <span class="nx">require</span><span class="p">(</span><span class="s1">&#39;underscore&#39;</span><span class="p">);</span>
 
-    <span class="nx">undersc_re</span><span class="p">.</span><span class="nx">mixin</span><span class="p">({</span></pre></div>             </td>           </tr>                               <tr id="section-2">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-2">&#182;</a>               </div>               <h3>_.memo(list, iterator, [memo], [context])</h3>
+    <span class="nx">undersc_re</span><span class="p">.</span><span class="nx">mixin</span><span class="p">({</span></pre></div>             </td>           </tr>                               <tr id="section-3">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-3">&#182;</a>               </div>               <h3>_.memo(list, iterator, [memo], [context])</h3>
 
 <p>just like <code>reduce</code> except it automatically returns <code>memo</code> for you
 each time.  and if you leave out the initial <code>memo</code> parameter, it
@@ -44,7 +44,7 @@ defaults to 'this'</p></li>
                 <span class="nx">iterator</span><span class="p">.</span><span class="nx">apply</span><span class="p">(</span><span class="nx">context</span><span class="p">,</span> <span class="nx">arguments</span><span class="p">);</span>
                 <span class="k">return</span> <span class="nx">memo</span><span class="p">;</span>
             <span class="p">},</span> <span class="nx">memo</span><span class="p">);</span>
-        <span class="p">},</span></pre></div>             </td>           </tr>                               <tr id="section-3">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-3">&#182;</a>               </div>               <h3>_.prop(obj, value, [key])</h3>
+        <span class="p">},</span></pre></div>             </td>           </tr>                               <tr id="section-4">             <td class="docs">               <div class="pilwrap">                 <a class="pilcrow" href="#section-4">&#182;</a>               </div>               <h3>_.prop(obj, value, [key])</h3>
 
 <p>kinda like jquery <code>prop()</code> or <code>attr()</code>.  in fact it's a lot like
 jquery <code>prop()</code> and <code>attr()</code>.  except for strait up js objects.</p>
