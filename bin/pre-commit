@@ -1,0 +1,6 @@
+#!/bin/sh
+
+if [ -f Makefile ]; then
+    make README.md && git add README.md
+    exit $?
+fi
