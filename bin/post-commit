@@ -2,10 +2,10 @@
 
 if [ $(git branch --no-color | grep '\*' | awk '{print $2}') = 'master' ]; then
     make docs
-    cp docs/* /tmp/
+    mv docs /tmp/
     git checkout gh-pages &>/dev/null
-    cp /tmp/t.html index.html
-    cp /tmp/docco.css ./
+    cp /tmp/docs/undersc_rext.html index.html
+    cp /tmp/docs/docco.css ./
     if [ -n "$(git status --porcelain)" ]; then
         echo "Pushing documentation updates to http://aaronj1335.github.com/undersc_rext"
         git commit -a -m 'documentation updates'
