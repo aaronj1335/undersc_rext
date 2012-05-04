@@ -11,6 +11,6 @@ node_modules:
 	npm install
 
 repo:
-	cp bin/pre-commit .git/hooks/
+	cp bin/*commit .git/hooks/
 
 .PHONY: test
