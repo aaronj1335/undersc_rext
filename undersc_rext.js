@@ -1,6 +1,17 @@
 // # `underscore extensions`
 //
+// version 0.0.1 ([source](https://github.com/aaronj1335/undersc_rext))
+//
 // a couple extemporaneous additions to everyone's fav\_rite javascript library
+//
+// ***
+//
+// ex•tem•po•ra•ne•ous |ikˌstempəˈrānēəs|
+// <br />*<small>ajective</small>*
+//
+// spoken or done without preparation: *an extemporaneous speech.*
+//
+// ***
 //
 
 /*globals exports:true,module*/

@@ -7,6 +7,7 @@
   "scrips": {
     "test": "make test"
   },
+  "homepage": "http://aaronj1335.github.com/undersc_rext",
   "repository": {
     "git": "https://github.com/aaronj1335/undersc_rext"
   },
