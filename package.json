@@ -2,23 +2,25 @@
   "name": "undersc_rext",
   "description": "a couple extemporaneous additions to everyone's fav_rite javascript library",
   "author": "Aaron Stacy <aaron.r.stacy@gmail.com>",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "undersc_rext.js",
   "scrips": {
     "test": "make test"
   },
   "homepage": "http://aaronj1335.github.com/undersc_rext",
   "repository": {
-    "git": "https://github.com/aaronj1335/undersc_rext"
+    "git": "https://github.com/aaronj1335/undersc_rext",
+    "url": ""
   },
   "dependencies": {
     "underscore": "1.3.x",
     "mocha": "1.0.x",
-	"docco": ">=0.2.0",
+    "docco": ">=0.2.0",
     "expect.js": "0.1.x"
   },
   "optionalDependencies": {},
   "engines": {
     "node": ">=0.4.0"
-  }
+  },
+  "devDependencies": {}
 }
