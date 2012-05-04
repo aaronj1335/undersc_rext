@@ -2,7 +2,8 @@
 
 if [ $(git branch --no-color | grep '\*' | awk '{print $2}') = 'master' ]; then
     make docs
-    mv -f docs /tmp/
+    [ -d /tmp/docs ] && rm -rf /tmp/docs
+    mv docs /tmp/
     git checkout gh-pages &>/dev/null
     cp /tmp/docs/undersc_rext.html index.html
     cp /tmp/docs/docco.css ./
